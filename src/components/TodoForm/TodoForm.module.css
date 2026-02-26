@@ -1,0 +1,27 @@
+﻿.form { display: flex; gap: 12px; }
+
+.input {
+  flex: 1;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.06);
+  color: rgba(255,255,255,0.92);
+  padding: 0 12px;
+  outline: none;
+}
+
+.input:focus { border-color: rgba(255,255,255,0.25); background: rgba(255,255,255,0.08); }
+
+.button {
+  height: 48px;
+  padding: 0 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.12);
+  color: rgba(255,255,255,0.95);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button:hover { background: rgba(255,255,255,0.16); }

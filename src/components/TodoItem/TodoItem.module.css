@@ -1,0 +1,28 @@
+﻿.item { display: flex; gap: 12px; align-items: center; justify-content: space-between; padding: 12px 2px; border-bottom: 1px solid rgba(255,255,255,0.12); }
+.text { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.input {
+  flex: 1;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.06);
+  color: rgba(255,255,255,0.92);
+  padding: 0 12px;
+  outline: none;
+}
+
+.input:focus { border-color: rgba(255,255,255,0.25); background: rgba(255,255,255,0.08); }
+
+.actions { display: flex; gap: 8px; }
+
+.button, .buttonGhost, .buttonDanger { height: 40px; padding: 0 12px; border-radius: 12px; font-weight: 700; cursor: pointer; }
+
+.button { border: 1px solid rgba(255,255,255,0.14); background: rgba(255,255,255,0.12); color: rgba(255,255,255,0.95); }
+.button:hover { background: rgba(255,255,255,0.16); }
+
+.buttonGhost { border: 1px solid rgba(255,255,255,0.14); background: transparent; color: rgba(255,255,255,0.75); }
+.buttonGhost:hover { background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.95); }
+
+.buttonDanger { border: 1px solid rgba(255,80,80,0.28); background: rgba(255,80,80,0.12); color: rgba(255,210,210,0.95); }
+.buttonDanger:hover { background: rgba(255,80,80,0.18); }
